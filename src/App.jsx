@@ -9,13 +9,33 @@ function App() {
 
   return (
     <>
-        <div className="grid">
-            <Card></Card>
-            <Card></Card>
-            <Card></Card>
-            <Card></Card>
-
+        <div className="container">
+            <div className="row">
+                <div className="col">
+                    <Card></Card>
+                    1 of 2
+                </div>
+                <div className="col">
+                    <Card></Card>
+                    2 of 2
+                </div>
+            </div>
+            <div className="row">
+                <div className="col">
+                    <Card></Card>
+                    1 of 3
+                </div>
+                <div className="col">
+                    <Card></Card>
+                    2 of 3
+                </div>
+                <div className="col">
+                    <Card></Card>
+                    3 of 3
+                </div>
+            </div>
         </div>
+
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
