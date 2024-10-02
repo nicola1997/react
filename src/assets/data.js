@@ -42,7 +42,7 @@ export const teamsPremierLeague = [
     {nome:"Wolverhampton", stadio:"Molineux Stadium", scudetti:3, coppaInghilterra:4, ucl:0}
 ];
 export const teamsLaLiga = [
-    {nome:"Real Madrid", stadio:"Santiago Bernabéu", scudetti:35, coppaDelRe:20, ucl:14},
+    {nome:"Real Madrid", stadio:"Santiago Bernabéu", scudetti:35, coppaDelRe:20, ucl:15},
     {nome:"Barcelona", stadio:"Estadi Olímpic Lluís Companys", scudetti:27, coppaDelRe:31, ucl:5},
     {nome:"Atletico Madrid", stadio:"Metropolitano", scudetti:11, coppaDelRe:10, ucl:0},
     {nome:"Sevilla", stadio:"Ramon Sanchez Pizjuan", scudetti:1, coppaDelRe:5, ucl:0},
