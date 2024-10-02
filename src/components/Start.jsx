@@ -1,33 +1,43 @@
 import {Link} from "react-router-dom";
 
-function Start({teamsSerieA, teamsPremierLeague, teamsLigue1, teamsLaLiga, teamsBundesliga}) {
+function Start({addTeam, teamsSerieA, teamsPremierLeague, teamsLigue1, teamsLaLiga, teamsBundesliga}) {
     const listTeamsSerieA = teamsSerieA.map(team =>
         <Link to={'/menu'}>
             <button key={team.nome} type="button"
+                    onClick={() => addTeam(team.nome)}
+
                     className="list-group-item list-group-item-action">{team.nome}</button>
         </Link>
     );
     const listTeamsPremierLeague = teamsPremierLeague.map(team =>
         <Link to={'/menu'}>
             <button key={team.nome} type="button"
+                    onClick={() => addTeam(team.nome)}
+
                     className="list-group-item list-group-item-action">{team.nome}</button>
         </Link>
     );
     const listTeamsLigue1 = teamsLigue1.map(team =>
         <Link to={'/menu'}>
             <button key={team.nome} type="button"
+                    onClick={() => addTeam(team.nome)}
+
                     className="list-group-item list-group-item-action">{team.nome}</button>
         </Link>
     );
     const listTeamsLaLiga = teamsLaLiga.map(team =>
         <Link to={'/menu'}>
             <button key={team.nome} type="button"
+                    onClick={() => addTeam(team.nome)}
+
                     className="list-group-item list-group-item-action">{team.nome}</button>
         </Link>
     );
     const listTeamsBundesliga = teamsBundesliga.map(team =>
         <Link to={'/menu'}>
             <button key={team.nome} type="button"
+                    onClick={() => addTeam(team.nome)}
+
                     className="list-group-item list-group-item-action">{team.nome}</button>
         </Link>
     );
